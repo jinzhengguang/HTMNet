@@ -1,11 +1,11 @@
 # HTMNet
 
-Official PyTorch implementation of HTMNet: A Hybrid Transformer-Mamba Networks for LiDAR-based 3D Detection and Semantic Segmentation
+Official PyTorch implementation of HTMNet: A Hybrid Transformer-Mamba Network for LiDAR-based 3D Detection and Semantic Segmentation
 
-### [https://www.youtube.com/watch?v=ZVTUQhSu7Cc](https://www.youtube.com/watch?v=ZVTUQhSu7Cc)
+### [https://www.youtube.com/watch?v=_7OWfAxLXQs](https://www.youtube.com/watch?v=_7OWfAxLXQs)
 
 
-[![](img/video.jpg)](https://youtu.be/ZVTUQhSu7Cc "")
+[![](img/video.jpg)](https://youtu.be/_7OWfAxLXQs "")
 
 ## Experimental Results
 

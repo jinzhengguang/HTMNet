@@ -1,6 +1,6 @@
 # HTMNet
 
-Official PyTorch implementation of HTMNet: A Hybrid Transformer-Mamba Network for LiDAR-based 3D Detection and Semantic Segmentation
+Official PyTorch implementation of HTMNet: A Hybrid Transformer-Mamba Network for LiDAR-based 3D Detection and Semantic Segmentation [[Paper]](https://doi.org/10.1016/j.eswa.2026.131832)
 
 ### [https://www.youtube.com/watch?v=_7OWfAxLXQs](https://www.youtube.com/watch?v=_7OWfAxLXQs)
 
@@ -23,15 +23,15 @@ Our HTMNet ranks first on [JRDB 2022](https://jrdb.erc.monash.edu/leaderboards/d
 
 ## News
 
+- **(2026-02-26)** 🔥 Our HTMNet is accepted by [Expert Systems With Applications](https://doi.org/10.1016/j.eswa.2026.131832) 2026.
+
 - **(2025-08-29)** 🔥 We release the code and model of our HTMNet.
 
 - **(2025-08-07)** 🏆 Our HTMNet ranks first on [JRDB 2022 3D Detection Leaderboard](https://jrdb.erc.monash.edu/leaderboards/detection22).
 
-![GuidePic](img/jrdb22.jpg)
 
 - **(2025-08-07)** 🏆 Our HTMNet ranks first on [JRDB 2019 3D Detection Leaderboard](https://jrdb.erc.monash.edu/leaderboards/detection).
 
-![GuidePic](img/jrdb19.jpg)
 
 
 ## Requirements
@@ -63,6 +63,18 @@ python train.py --cfg htmnet19.yaml
 python train.py --cfg htmnet19.yaml --ckpt HTMNet_JRDB2019.pth --evaluation
 ```
 
+## Citation
+
+```
+@article{guang2026htmnet,
+	title = {HTMNet: A hybrid transformer-mamba network for LiDAR-based 3D detection and semantic segmentation},
+	author = {Jinzheng Guang and Shichao Wu and Yongru Wang and Zhenzhong Cao and Xiao Wu and Jingtai Liu},
+	journal = {Expert Systems with Applications},
+	volume = {316},
+	pages = {131832},
+	year = {2026},
+}
+```
 
 ## Acknowledgement
 
